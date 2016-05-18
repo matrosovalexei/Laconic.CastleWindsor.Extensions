@@ -3,8 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laconic.CastleWindsor.Extensions", "Laconic.CastleWindsor.Extensions\Laconic.CastleWindsor.Extensions.csproj", "{D6A3532D-DA89-4C66-8984-C00DDF3D6A14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{86D3C24E-9792-45D4-BAEF-12D30347524B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laconic.CastleWindsor.Extensions.Tests", "Laconic.CastleWindsor.Extensions.Tests\Laconic.CastleWindsor.Extensions.Tests.csproj", "{80ED4FD8-6E28-4159-9FD4-D0F9A610C6E8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6A3532D-DA89-4C66-8984-C00DDF3D6A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A3532D-DA89-4C66-8984-C00DDF3D6A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A3532D-DA89-4C66-8984-C00DDF3D6A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A3532D-DA89-4C66-8984-C00DDF3D6A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80ED4FD8-6E28-4159-9FD4-D0F9A610C6E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80ED4FD8-6E28-4159-9FD4-D0F9A610C6E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80ED4FD8-6E28-4159-9FD4-D0F9A610C6E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80ED4FD8-6E28-4159-9FD4-D0F9A610C6E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80ED4FD8-6E28-4159-9FD4-D0F9A610C6E8} = {86D3C24E-9792-45D4-BAEF-12D30347524B}
 	EndGlobalSection
 EndGlobal
